@@ -1,0 +1,59 @@
+/* Reset the default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Add some basic styles to the body */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Style the header and navigation menu */
+header {
+  background-color: #333;
+  color: #fff;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li {
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the main section and its sections */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main section {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
